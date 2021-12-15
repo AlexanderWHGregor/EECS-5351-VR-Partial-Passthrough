@@ -1,0 +1,77 @@
+DV: Entry Time per Question (s)
+F1: Layout, Partial Passthrough (SA), Partial Passthrough (HA), No Attachment (NA)
+F2: Trial, Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10
+F3: .
+F4: .
+F5: Group
+F6: .
+F7: .
+4.82	4.64	4.68	4.22	5.57	3.69	7.62	3.42	3.98	5.63	3.63	2.39	4.13	4.34	2.98	3.26	3.23	2.97	2.99	3.27	3.38	6.11	3.81	2.35	2.8	3.23	2.62	4.47	2.74	2.79	ABC
+5.22	3.73	3.3	3.45	2.48	2.49	5.56	3.49	4.43	4.23	8.62	2.34	2.58	2.19	1.91	2.1	4.19	2.98	3.51	5.89	3.94	6	2.7	2.04	2.05	2.02	3.59	3.15	5.65	5.25	ABC
+6.33	5.14	4.66	2.52	3.58	4.96	3.73	5.73	6.52	2.63	3.17	2.94	2.28	3.23	2.48	2.8	6.57	2.2	2.95	3.62	4.09	3.48	2.36	2.3	2.36	3.01	4.26	3.5	2.92	5.79	ABC
+4.57	2.48	2.37	2.71	2.48	2.34	2.17	3.05	2.19	3.79	3.01	2.81	2.94	4.01	3.37	3.89	1.92	3.06	4.9	3.91	3.58	3.84	2.24	1.95	5.45	2.17	2.24	2.16	3.62	3.05	BCA
+6.63	5.17	14.51	3.34	8.49	2.3	3.45	2.98	2.17	3.62	6.14	5.08	3.98	3.33	5.25	3.24	4	3.52	2.42	2.85	4.23	4.82	5.75	7	4.89	3.69	5.12	4.71	2.89	3.44	BCA
+3.36	3.21	3.66	4.27	3.34	2.37	2.62	2.42	3.82	3.54	6.39	3.8	4.69	7.71	4.54	3.81	2.63	3.3	3.87	3.37	3.79	3.06	2.64	5.85	3.26	3.39	4.05	2.92	3.13	4.04	BCA
+6.77	4.06	5.23	4.37	3.33	3.18	4.33	4.63	7.21	2.59	5.89	4.57	2.9	3.04	5.51	3.82	3.27	5.93	5.83	4.05	8.59	4.95	6.72	5.73	5.69	3.8	5.26	5.68	4.09	8.31	CAB
+4.37	4.5	5.82	5.74	3.24	4.22	4.32	2.81	3.04	4.72	7.2	3.49	3.77	2.88	3.27	4.07	3.19	6.85	2.97	3.12	4.71	7.88	3.94	5.67	4.19	2.9	2.74	2.94	6.64	4.07	CAB
+2.01	1.81	1.87	2.03	3.63	1.84	2.06	2.37	2.84	2.58	1.92	2.38	2.74	2.3	2.2	2.1	4.58	1.96	1.91	2.92	2.13	3.08	2.42	2.41	2.76	2.62	3.93	2.44	2.65	2.88	CAB
+
+ANOVA_table_for_Entry Time per Question (s)
+=================================================================================
+Effect                        df        SS            MS         F        p      
+---------------------------------------------------------------------------------
+Group                          2         1.294         0.647     0.029    0.9717
+Participant(group)             6       134.517        22.419    
+Layout                         2         4.384         2.192     0.961    0.4100
+Layout_x_Group                 4        24.755         6.189     2.714    0.0806
+Layout_x_P(group)             12        27.360         2.280    
+Trial                          9        42.940         4.771     2.173    0.0385
+Trial_x_Group                 18        50.632         2.813     1.281    0.2371
+Trial_x_P(group)              54       118.569         2.196    
+Layout_x_Trial                18        32.801         1.822     1.036    0.4270
+Layout_x_Trial_x_Group        36        45.372         1.260     0.717    0.8728
+Layout_x_Trial_x_P(group)    108       189.966         1.759    
+=================================================================================
+Data_file: 9P_CompletionTime_Question_Groups.txt
+
+Summary statements:
+The effect of group on entry time per question was not statistically significant (F(2, 6) = 0.029, ns).
+The effect of layout on entry time per question was not statistically significant (F(2, 12) = 0.961, ns).
+The layout_x_group interaction effect was not statistically significant (F(4, 12) = 2.714, p > .05).
+The effect of trial on entry time per question was statistically significant (F(9, 54) = 2.173, p < .05).
+The trial_x_group interaction effect was not statistically significant (F(18, 54) = 1.281, p > .05).
+The layout_x_trial interaction effect was not statistically significant (F(18, 108) = 1.036, p > .05).
+
+=============================
+----- MAIN EFFECT MEANS -----
+=============================
+Grand mean: 3.8409259259259283
+Participant means: 
+   P0=3.85867
+   P1=3.70267
+   P2=3.73700
+   P3=3.07567
+   P4=4.63367
+   P5=3.76167
+   P6=4.97767
+   P7=4.30900
+   P8=2.51233
+Layout means: 
+   Partial Passthrough (SA)=3.97100
+   Partial Passthrough (HA)=3.66789
+   No Attachment (NA)=3.88389
+Trial means: 
+   Q1=4.75889
+   Q2=3.99111
+   Q3=4.02556
+   Q4=3.74000
+   Q5=3.74444
+   Q6=3.08556
+   Q7=3.82407
+   Q8=3.54222
+   Q9=3.77333
+   Q10=3.92407
+Group means: 
+   ABC=3.76611
+   BCA=3.82367
+   CAB=3.93300
