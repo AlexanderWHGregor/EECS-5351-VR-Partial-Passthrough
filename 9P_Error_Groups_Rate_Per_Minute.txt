@@ -1,0 +1,17 @@
+DV: Error Rate (epm)
+F1: Layout, Partial Passthrough (SA), Partial Passthrough (HA), No Attachment (NA)
+F2: .
+F3: .
+F4: .
+F5: Group
+F6: .
+F7: .
+2.484	3.618	3.498	ACB
+0	0	0	ACB
+1.308	0	0	ACB
+0	0	0	BCA
+0	0	0	BCA
+0	0	0	BCA
+0	1.338	2.04	CAB
+0	0	1.314	CAB
+0	0	0	CAB
